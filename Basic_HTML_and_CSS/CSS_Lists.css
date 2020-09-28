@@ -1,7 +1,7 @@
 ol {
-   list-style-type: disc;
+   list-style-type: upper-roman;
 }
 
 ul {
-   list-style-type: triangle;
+   list-style-type: square;
 }
