@@ -68,7 +68,7 @@ HOVER EFFECTS
 ----------------------------------------------*/
 
 .container.squares:nth-child(-n+4):hover{
-   background-image: url(Project_Website\Images\smileyface1.png);
+   background-image: url(./smileyface1.png);
 }
 
 .squares:nth-child(1): :hover {
