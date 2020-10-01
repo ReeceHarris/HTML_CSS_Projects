@@ -18,15 +18,15 @@ SELECT ALL SQUARES IN THE ARRAY
 -------------------------------------------*/
 
 
-.container .squares; :nth-child(-n+4) {
-   background-image: url(*../images/icona/smilyface2.png);
+.squares:nth-child(-n+4) {
+   background-image: url(Project_Website\Images\smileyface1.png);
    color: #fff;
    float: left;
    width: 100px;
    height: 100px;
    margin: 5px;
    border: 1px solid black;
-   border-radius: 25%;
+   border-radius: 5%;
    cursor: pointer;
 }
 
