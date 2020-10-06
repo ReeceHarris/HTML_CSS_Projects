@@ -3,9 +3,17 @@ body {
    font-size: 16px;
 }
 
-.inputs {
+input {
    width: auto;
    margin: auto;
-   border: aqua;
-   border-radius: 8%;
+   border: 200px rgb(0, 5, 5, 1);
+   border-radius: 25%;
+   z-index: 1;
+
+}
+
+html {
+
+   background-color: #786934;
+   z-index: -1;
 }
