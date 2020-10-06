@@ -144,7 +144,7 @@ section {
 HOME SECTION STYLES
 ============================*/
 
-#HOME {
+#home {
    background: url(../Images/planets.jpg) no-repeat 50% 50%; 
    background-attachment: fixed;
    -webkit-background-size: cover;
