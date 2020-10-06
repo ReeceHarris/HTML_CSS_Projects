@@ -6,8 +6,8 @@ body {
 input {
    width: auto;
    margin: auto;
-   border: 200px rgb(0, 5, 5, 1);
-   border-radius: 25%;
+   border: 3px solid rgb(0, 5, 5, 1);
+   border-radius: 8%;
    z-index: 1;
 
 }
