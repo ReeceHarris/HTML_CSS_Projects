@@ -1,0 +1,14 @@
+  img {
+    width: auto;
+    height: auto;
+    padding: auto;
+    border: 2px dashed #FF0000;
+  }
+
+html {
+  background-color: lightblue;
+}
+
+h3 {
+ text-align: center;
+}
