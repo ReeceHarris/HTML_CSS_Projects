@@ -23,7 +23,7 @@ html {
  }
  
  .row > .column {
-   padding: 0 8px;
+   padding: 0  8px 25px;
  }
  
  .row:after {
@@ -82,7 +82,7 @@ html {
    display: none;
  }
  
- .Image {
+ .cursor {
    cursor: pointer;
  }
  
@@ -136,7 +136,7 @@ html {
    color: white;
  }
  
- .demo {
+ .opacity {
    opacity: 0.6;
  }
  
@@ -151,4 +151,14 @@ html {
  
  .hover-shadow:hover {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .video {
+    margin-top: 250px;
+ }
+
+ center {
+    float: center;
+    align-content: center;
+    text-align: center;
  }

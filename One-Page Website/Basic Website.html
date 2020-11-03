@@ -2,12 +2,13 @@
 <head>
    <meta charset="UTF-8">
    <link rel="stylesheet" href="../One-Page Website/CSS2/one_page_website.css">
+   <script src="./JavaScript/one_page_website.js" ></script>
    <title>Basic Website</title>
 </head>
 <title id="Title">Basic Website</title>
 <!--Header-->
 <header> </header>
-<h1>Relaxing Landscapes</h1>
+<h1 class="center" id="center" >Relaxing Landscapes</h1>
 
 <p> Relaxing Landscapes</p>
 <!--End Header-->
@@ -28,16 +29,16 @@
 <h2 style="text-align:center">Lightbox</h2>
 <div class="row">
    <div class="column">
-     <img src="img_nature.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+     <img src="./Images/IMG1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
    </div>
    <div class="column">
-     <img src="img_snow.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+     <img src="./Images/IMG2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
    </div>
    <div class="column">
-     <img src="img_mountains.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+     <img src="./Images/IMG6.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
    </div>
    <div class="column">
-     <img src="img_lights.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+     <img src="./Images/IMG4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
    </div>
  </div>
  
@@ -47,22 +48,22 @@
  
      <div class="mySlides">
        <div class="numbertext">1 / 4</div>
-       <img src="img_nature_wide.jpg" style="width:100%">
+       <img src="./Images/IMG1.jpg" style="width:100%">
      </div>
  
      <div class="mySlides">
        <div class="numbertext">2 / 4</div>
-       <img src="img_snow_wide.jpg" style="width:100%">
+       <img src="./Images/IMG2.jpg" style="width:100%">
      </div>
  
      <div class="mySlides">
        <div class="numbertext">3 / 4</div>
-       <img src="img_mountains_wide.jpg" style="width:100%">
+       <img src="./Images/IMG6.jpg" style="width:100%">
      </div>
      
      <div class="mySlides">
        <div class="numbertext">4 / 4</div>
-       <img src="img_lights_wide.jpg" style="width:100%">
+       <img src="./Images/IMG4.jpg" style="width:100%">
      </div>
      
      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -74,16 +75,16 @@
  
  
      <div class="column">
-       <img class="demo cursor" src="./Images/IMG1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+       <img class="opacity cursor" src="./Images/IMG1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Dougway in the morning.">
      </div>
      <div class="column">
-       <img class="demo cursor" src="./Images/IMG2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+       <img class="opacity cursor" src="./Images/IMG2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Camp Williams range">
      </div>
      <div class="column">
-       <img class="demo cursor" src="./Images/IMG3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+       <img class="opacity cursor" src="./Images/IMG6.jpg" style="width:100%" onclick="currentSlide(3)" alt="Elk Ridge Golf Course">
      </div>
      <div class="column">
-       <img class="demo cursor" src="./Images/IMG4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+       <img class="opacity cursor" src="./Images/IMG4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Camp Williams in the morning. ">
      </div>
    </div>
  </div>
